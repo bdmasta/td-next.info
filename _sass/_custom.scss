@@ -1,0 +1,136 @@
+.contact-object {
+  display:table;
+  margin: 0 auto;
+
+    .contact-object-cell {
+      display:table-cell;
+      vertical-align:middle;
+
+      .contact-icon {
+        margin-right:0.938em;
+        width:4.063em;
+        height:4.063em;
+        background-repeat:no-repeat;
+        background-size:4.063em 4.063em;
+      }
+      .icon-phonenumber {background-image: url('//assetstdnext.s3.amazonaws.com/img/icon-phonenumber%402x.png');}
+      .icon-email {background-image: url('//assetstdnext.s3.amazonaws.com/img/icon-email-grey%402x.png');}
+      .icon-smartphone {background-image: url('//assetstdnext.s3.amazonaws.com/img/icon-smartphone-grey%402x.png');}
+
+    }
+
+    .contact-textbox {
+      padding: 0.048em 0.476em;
+      -moz-border-radius: 1.190em;
+      -webkit-border-radius: 1.190em;
+      border-radius: 1.190em;
+      @include font-size(42px);
+      color:#ffffff;
+      font-weight:300;
+    }
+  }
+
+  .list-contact-infos {
+    .list-contact-object {
+      margin-bottom:0.938em;
+      &:last-child{
+        margin-bottom:0;
+      }
+    }
+  }
+
+.contact-hero {
+  .contact-description {
+    margin-top:50px;
+    margin-bottom:50px;
+    .contact-header {
+      @include font-size(48px);
+      font-weight:400;
+      line-height:1.417em;
+    }
+    .contact-subheader {
+      margin:0;
+      @include font-size(48px);
+      font-weight:400;
+      line-height:1.417em;
+    }
+  }
+}
+
+
+
+
+
+.contact-form {
+  padding:1.563em 0 1.563em 0;
+  .mascot-byebye {
+    max-width:480px;
+    width:100%;
+  }
+}
+
+@media (min-width:765px){
+  .contact-form {
+    background-image: url('//assetstdnext.s3.amazonaws.com/img/bg-contact.jpg');
+    background-repeat:no-repeat;
+  }
+}
+
+.tdnext-form {
+  input, select, textarea {
+    -moz-border-radius: 3.125em;
+    -webkit-border-radius: 3.125em;
+    border-radius: 3.125em;
+  }
+
+  input, select {
+    height:64px;
+  }
+  textarea {
+    height:300px;
+    -moz-border-radius: 2.188em;
+    -webkit-border-radius: 2.188em;
+    border-radius: 2.188em;
+  }
+}
+
+.idcard {
+  .idcard-logo{
+    max-width:246px;
+    width:100%;
+  }
+  .idcard-address{
+    margin:1.667em 0 1.667em 0;
+    @include font-size(42px);
+    color:#ffffff;
+    font-weight:300;
+  }
+}
+
+.aboutus{
+  .aboutus-text{
+    margin-top:2.500em;
+    @include font-size(20px);
+  }
+}
+
+
+.offers {
+  .offer-col {
+    padding:3.125em 1.875em 0 1.875em;
+    .offer-img{
+      max-width:174px;
+      width:100%;
+    }
+
+    .offer-title{
+      @include font-size(30px);
+      font-weight:600;
+    }
+
+    .offer-description {
+      @include font-size(24px);
+    }
+  }
+
+}
