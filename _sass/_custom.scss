@@ -72,12 +72,15 @@
 @media (min-width:765px){
   .contact-form {
     background-image: url('//assetstdnext.s3.amazonaws.com/img/bg-contact.jpg');
+    background-position:center center;
     background-repeat:no-repeat;
   }
 }
 
 .tdnext-form {
   input, select, textarea {
+    -moz-border-radius: 3.125em;
+    -webkit-border-radius: 3.125em;
     -moz-border-radius: 3.125em;
     -webkit-border-radius: 3.125em;
     border-radius: 3.125em;
