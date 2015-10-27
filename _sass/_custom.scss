@@ -79,8 +79,7 @@
 
 .tdnext-form {
   input, select, textarea {
-    -moz-border-radius: 3.125em;
-    -webkit-border-radius: 3.125em;
+    -webkit-appearance: none;
     -moz-border-radius: 3.125em;
     -webkit-border-radius: 3.125em;
     border-radius: 3.125em;
